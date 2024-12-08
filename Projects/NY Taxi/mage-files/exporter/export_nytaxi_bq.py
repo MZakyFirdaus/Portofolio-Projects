@@ -18,7 +18,7 @@ def export_data_to_big_query(data, **kwargs) -> None:
     Docs: https://docs.mage.ai/design/data-loading#bigquery
     """
     for table_name, df in data.items():
-        table_id = f"firdauszakyy-de.yellow_trips_data.{table_name}"
+        table_id = f"<your_project>.<your_datasets>.{table_name}"
         config_path = path.join(get_repo_path(), "io_config.yaml")
         config_profile = "default"
 
