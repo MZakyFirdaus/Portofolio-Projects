@@ -2,7 +2,7 @@
 
 **Brewly Beans**, a growing coffee shop chain with several locations across the city, is looking to **improve operational efficiency and strategic decision-making** by becoming a data-driven organization. To support this goal, the company initiated a project to develop an interactive sales dashboard using Excel. This dashboard enables store managers and executives to track key metrics such as monthly revenue, best-selling products, sales by category, and seasonal performance trends — helping them make informed decisions on inventory, marketing campaigns, and staffing.
 
-![Coffee Shop Sales](img/coffee_shop_dashboard.png)
+![coffee_dashboard](img/coffee_sales_dashboard.png)
 
 ---
 
@@ -25,27 +25,25 @@ All analysis for this project was conducted using Microsoft Excel, leveraging Pi
 ---
 
 ## Data Structure & Initial Checks  
-The dataset includes **5,000+ transactions** with the following fields:  
-- **Transaction ID** | **Date/Time** | **Store Location**  
-- **Product Category** (Coffee, Food, Merchandise)  
-- **Product Name** | **Quantity** | **Unit Price**  
-- **Payment Method** | **Customer Type** (New/Returning)  
+The dataset contains **14,000+** transactions with the following fields:
 
-**Data Cleaning Steps:**  
-- Removed 15 duplicate entries.  
-- Standardized product names (e.g., "Latte" vs. "Caffe Latte").  
-- Imputed missing customer types (assumed "New" for first-time store visits).  
+- **Transaction Date | Transaction Time**
+- **Store ID | Store Location**
+- **Product ID | Product Category | Product Type | Product Detail**
+- **Transaction Quantity | Unit Price | Revenue**
+
+Initial checks were performed to ensure date and time formats were consistent, revenue calculations matched unit price × quantity, and there were no missing values in key fields such as store or product identifiers. 
+
+> ⚠️ Disclaimer:   
+**The dataset used in this project is not structured according to standard database normalization rules**. Some fields contain repeated or nested information, and product-related details are stored in a single flat table rather than separated into dimension tables. As such, this **dataset is intended solely for analytical purposes** and dashboard creation, not for transactional or relational database use.
 
 ---
 
 ## Executive Summary  
 **Top 3 Insights:**  
-1. **Coffee drinks drive 65% of revenue**, with cold brews outperforming hot coffees in summer (+40% sales).  
-2. **Weekday mornings (7–9 AM)** account for 30% of daily sales; staffing shortages during these hours reduce order speed.  
-3. **Store A** has 20% lower AOV than Store B due to limited food upsell promotions.  
-
-![Sales Dashboard Snapshot](/assets/dashboard.png)  
-*(Replace with a screenshot of your Excel dashboard)*  
+1. **Coffee drinks contribute to 38.63% of total revenue**, with Latte Regular being the top customer favorite, indicating strong demand for caffeinated beverages.  
+2. **Customer peak hours are in the morning (8–10 AM)**, accounting for 44.54% of daily sales; potential staffing shortages during these hours may slow down service and reduce order fulfillment.  
+3. **There is a 5.44% increase in transactions compared to the previous month (MoM)**, showing a positive growth trend and an opportunity to boost marketing or stock top-selling products accordingly.  
 
 ---
 
