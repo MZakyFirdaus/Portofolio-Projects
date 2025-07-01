@@ -31,10 +31,41 @@ The columns are structured as follows:
 - ***Month***: The month of the sales data (represented numerically, 1-12).
 - ***Units Month***: Total units sold within that specific month.
 - ***Values Month***: Total revenue generated within that specific month.
-- ***nits YTD***: Cumulative units sold from the beginning of the year up to the current month.
+- ***Units YTD***: Cumulative units sold from the beginning of the year up to the current month.
 - ***Values YTD***: Cumulative revenue generated from the beginning of the year up to the current month.
 - ***Units MAT***: Total units sold over the last 12 months (Moving Annual Total).
 - ***Values MAT***: Total revenue generated over the last 12 months (Moving Annual Total).
 
+## Metodologi Analisis
+Metodologi untuk projek ini berupa analisis deskripsi, agnostistik, dan prediktif. Pemilihan metode ini dirancang untuk gambaran menyeluruh dari memahami kondisi penjualan HealthMax saat ini, mengevaluasi kinerja, dan melakukan prediksi tren di masa depan.
+
+### Tools and Technology
+| Tool / Fitur            | Deskripsi Penggunaan                                                                 |
+|-------------------------|--------------------------------------------------------------------------------------|
+| **Microsoft Excel 2021**     | Platform utama untuk analisis data, perhitungan metrik, dan visualisasi hasil.      |
+| **Power Query**     | Digunakan untuk pra-pemrosesan dan transformasi data awal      |
+| **PivotTable & PivotChart** | Digunakan untuk menyusun dan memvisualisasikan data berdasarkan dimensi tertentu.   |
+| **Forecast Sheet**      | Digunakan untuk menghasilkan prakiraan pendapatan penjualan di masa depan berdasarkan data historis Anda.             |
+| **Conditional Formatting** | Digunakan untuk menandai outlier dan pola data secara visual.                     |
+
+
+
 ## Insights Deep Dive 
 ### What has happened over the past few years?
+**HEALTHMAX PRODUCTS**   
+Untuk melihat performa HealthMax dalam beberapa tahun terakhir, analisis deskriptif dilakukan. Dalam dataset, data yang digunakan untuk meninjau performa penjualan dapat dilihat pada kolom *Values Month* dan *Units Month*. Saat ini, produk shampoo dari HealthMax hanya terdiri dari **Shinez** untuk anti-dandruff dan **Starbust** untuk volumizing. Grafik berikut menunjukkan performa kedua produk tersebut dari tahun ke tahun.
+
+![HealthMax Products trends](./img/HealthMaxProductsTrends.png)   
+
+Dari grafik, disimpulkan bahwa:
+> Kedua produk mengalami **penurunan penjualan pada tahun 2019** dibandingkan dari tahun sebelumnya, namun Shinez menunjukkan pemulihan dan pertumbuhan signifikan di tahun 2020 dan **2022 mencapai 8,03% di 2022**, sedangkan Starbust menunjukkan pertumbuhan yang lebih lambat dan bahkan sedikit stagnasi di tahun 2022 yaitu mengalami kenaikan hanya 0,39%.
+
+**HEALTHMAX MARKETSHARES**   
+HealthMax bukan satu-satunya perusahaan di daerah ini, terdapat beberapa kompetitior yang bergerak dibidang yang sama. Grafik dibawah ini merupakan gambar pangsa pasar berdasarkan dataset.   
+
+![HealthMax MarketShares](./img/HealthMax_MarketShares.png)   
+Hingga tahun 2022, produk HealthMax mendominasi pasar dan paling banyak dibeli oleh customer dibandingkan pesaing lainya.   
+> **HealthMax secara konsisten mempertahankan posisi dominan** dengan pangsa pasar sekitar **33-35%** setiap bulannya di tahun 2022, diikuti oleh *FreshCo Industries* dan *GreenLeaf Distributors* sebagai perusahaan terbesar lainnya.
+
+
+**BAGAIAMAN PENJUALAN PRODUK HEALTHMAX SELAMA INI?**   
