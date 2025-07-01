@@ -40,32 +40,53 @@ The columns are structured as follows:
 Metodologi untuk projek ini berupa analisis deskripsi, agnostistik, dan prediktif. Pemilihan metode ini dirancang untuk gambaran menyeluruh dari memahami kondisi penjualan HealthMax saat ini, mengevaluasi kinerja, dan melakukan prediksi tren di masa depan.
 
 ### Tools and Technology
-| Tool / Fitur            | Deskripsi Penggunaan                                                                 |
+| Tools             | Description                                                                 |
 |-------------------------|--------------------------------------------------------------------------------------|
-| **Microsoft Excel 2021**     | Platform utama untuk analisis data, perhitungan metrik, dan visualisasi hasil.      |
-| **Power Query**     | Digunakan untuk pra-pemrosesan dan transformasi data awal      |
-| **PivotTable & PivotChart** | Digunakan untuk menyusun dan memvisualisasikan data berdasarkan dimensi tertentu.   |
-| **Forecast Sheet**      | Digunakan untuk menghasilkan prakiraan pendapatan penjualan di masa depan berdasarkan data historis Anda.             |
-| **Conditional Formatting** | Digunakan untuk menandai outlier dan pola data secara visual.                     |
-
+| **Microsoft Excel 2021**     | The ultimate platform for data analysis, metrics calculation, and results visualization.      |
+| **Power Query**     | Used for pre-processing and initial data transformation      |
+| **PivotTable & PivotChart** | Used to organize and visualize data based on certain dimensions.   |
+| **Forecast Sheet**      | Used to generate forecasts of future sales revenue based on historical data.             |
 
 
 ## Insights Deep Dive 
 ### What has happened over the past few years?
 **HEALTHMAX PRODUCTS**   
-Untuk melihat performa HealthMax dalam beberapa tahun terakhir, analisis deskriptif dilakukan. Dalam dataset, data yang digunakan untuk meninjau performa penjualan dapat dilihat pada kolom *Values Month* dan *Units Month*. Saat ini, produk shampoo dari HealthMax hanya terdiri dari **Shinez** untuk anti-dandruff dan **Starbust** untuk volumizing. Grafik berikut menunjukkan performa kedua produk tersebut dari tahun ke tahun.
+To look at HealthMax's performance in recent years, a descriptive analysis was performed. In the dataset, the data used to review sales performance can be seen in the *Values Month* and *Units Month* columns. Currently, HealthMax's shampoo products only consist of **Shinez** for anti-dandruff and **Starbust** for volumizing. The following chart shows the performance of these two products year-on-year.
 
 ![HealthMax Products trends](./img/HealthMaxProductsTrends.png)   
 
-Dari grafik, disimpulkan bahwa:
-> Kedua produk mengalami **penurunan penjualan pada tahun 2019** dibandingkan dari tahun sebelumnya, namun Shinez menunjukkan pemulihan dan pertumbuhan signifikan di tahun 2020 dan **2022 mencapai 8,03% di 2022**, sedangkan Starbust menunjukkan pertumbuhan yang lebih lambat dan bahkan sedikit stagnasi di tahun 2022 yaitu mengalami kenaikan hanya 0,39%.
+From the graph, it can be concluded that:
+> Both products experienced a **decrease in sales in 2019** compared to the previous year, but Shinez showed significant recovery and growth in 2020 and **reaching 8.03% in 2022**, while Starbust showed slower growth and even a slight stagnation in 2022 with an increase of only 0.39%.
 
 **HEALTHMAX MARKETSHARES**   
-HealthMax bukan satu-satunya perusahaan di daerah ini, terdapat beberapa kompetitior yang bergerak dibidang yang sama. Grafik dibawah ini merupakan gambar pangsa pasar berdasarkan dataset.   
+HealthMax is not the only company in this area, there are several competitors in the same field. The graph below shows the market share based on the dataset. 
 
 ![HealthMax MarketShares](./img/HealthMax_MarketShares.png)   
-Hingga tahun 2022, produk HealthMax mendominasi pasar dan paling banyak dibeli oleh customer dibandingkan pesaing lainya.   
-> **HealthMax secara konsisten mempertahankan posisi dominan** dengan pangsa pasar sekitar **33-35%** setiap bulannya di tahun 2022, diikuti oleh *FreshCo Industries* dan *GreenLeaf Distributors* sebagai perusahaan terbesar lainnya.
+Until 2022, HealthMax products dominate the market and are the most purchased by customers compared to other competitors.   
+> **HealthMax has consistently maintained its dominant position** with a market share of approximately **33-35%** on a monthly basis in 2022, followed by *FreshCo Industries* and *GreenLeaf Distributors* as the other largest companies.
 
 
-**BAGAIAMAN PENJUALAN PRODUK HEALTHMAX SELAMA INI?**   
+**HOW HAVE SALES OF HEALTHMAX PRODUCTS BEEN?**   
+HealthMax's sales performance has shown interesting dynamics in recent years. While the volume of units sold has tended to decline overall since 2020, the value of sales has shown a steady upward trend, especially in recent years. 
+<table>
+  <tr>
+    <td style="width: 50%; padding: 10px;">
+      <img src="./img/HealthMax_Sales.png" alt="HealthMax Sales Trends" style="width: 100%;">
+    </td>
+    <td style="width: 50%; padding: 10px;">
+      <img src="./img/HealthMax_Solds.png" alt="HealthMax Unit Solds Trends" style="width: 100%;">
+    </td>
+  </tr>
+</table>   
+
+- **Unit Terjual**; d**Units Sold**; from the graph “HealthMax Unit Solds Trends” it is known that a decline in unit sold volume occurred from 2018 to 2019, with a slight increase in 2020 (marked “Covid 2019”) which then became the starting point of a continuous unit decline trend until 2022. This implies the potential impact of the pandemic or changes in consumer behavior that reduce unit sales volume gradually.
+- **Sales**; In contrast, the “HealthMax Sales Trends” chart displays a consistent recovery and growth in sales value from 2020, reaching a peak of $31,443K in 2022. This shows that despite the decline in unit volume, HealthMax managed to increase total revenue.
+
+### Effectiveness of Pricing and Promotion Strategy   
+**EFFECTIVENESS OF PRICING**   
+Untuk scope projects kali ini, mari berasumsikan elastisitas konsumen HealthMax sama seperti konsumen FMCG untuk produk harian lainnya. Konsumen untuk produk ini memiliki elastisitas tinggi, dimana jika harga produk sedikit berubah; volume penjualan mengalami penurunan.   
+Apakah harga dari produk-produk HealthMax sudah optimal? Perlu diketahui dari produk HealthMax (dilihat dari analisis pada bagian sebelumnya) HealthMax adalah produk yang mendominasi di antara produk shampoo lainnya. Untuk lebih meyakinkan, mari kita lihat grafik berikut:
+
+![HealthMax_profitMatrix](./img/HealthMax_profitMatrix.png)
+
+
