@@ -37,7 +37,7 @@ The columns are structured as follows:
 - ***Values MAT***: Total revenue generated over the last 12 months (Moving Annual Total).
 
 ## Metodologi Analisis
-Metodologi untuk projek ini berupa analisis deskripsi, agnostistik, dan prediktif. Pemilihan metode ini dirancang untuk gambaran menyeluruh dari memahami kondisi penjualan HealthMax saat ini, mengevaluasi kinerja, dan melakukan prediksi tren di masa depan.
+The methodology for this project was descriptive, agnostic, and predictive analysis. The selection of these methods was designed for a comprehensive overview of understanding HealthMax's current sales conditions, evaluating performance, and predicting future trends.
 
 ### Tools and Technology
 | Tools             | Description                                                                 |
@@ -79,14 +79,28 @@ HealthMax's sales performance has shown interesting dynamics in recent years. Wh
   </tr>
 </table>   
 
-- **Unit Terjual**; d**Units Sold**; from the graph “HealthMax Unit Solds Trends” it is known that a decline in unit sold volume occurred from 2018 to 2019, with a slight increase in 2020 (marked “Covid 2019”) which then became the starting point of a continuous unit decline trend until 2022. This implies the potential impact of the pandemic or changes in consumer behavior that reduce unit sales volume gradually.
+- **Units Sold**; from the graph “HealthMax Unit Solds Trends” it is known that a decline in unit sold volume occurred from 2018 to 2019, with a slight increase in 2020 (marked “Covid 2019”) which then became the starting point of a continuous unit decline trend until 2022. This implies the potential impact of the pandemic or changes in consumer behavior that reduce unit sales volume gradually.
 - **Sales**; In contrast, the “HealthMax Sales Trends” chart displays a consistent recovery and growth in sales value from 2020, reaching a peak of $31,443K in 2022. This shows that despite the decline in unit volume, HealthMax managed to increase total revenue.
 
 ### Effectiveness of Pricing and Promotion Strategy   
 **EFFECTIVENESS OF PRICING**   
-Untuk scope projects kali ini, mari berasumsikan elastisitas konsumen HealthMax sama seperti konsumen FMCG untuk produk harian lainnya. Konsumen untuk produk ini memiliki elastisitas tinggi, dimana jika harga produk sedikit berubah; volume penjualan mengalami penurunan.   
-Apakah harga dari produk-produk HealthMax sudah optimal? Perlu diketahui dari produk HealthMax (dilihat dari analisis pada bagian sebelumnya) HealthMax adalah produk yang mendominasi di antara produk shampoo lainnya. Untuk lebih meyakinkan, mari kita lihat grafik berikut:
+For the scope of this project, let's assume that the elasticity of HealthMax consumers is the same as FMCG consumers for other daily products. Consumers for this product have high elasticity, where if the price of the product changes slightly; the sales volume decreases.   
+Is the pricing of HealthMax products optimal? It should be noted from HealthMax products (judging from the analysis in the previous section) that HealthMax is the dominating product among other shampoo products. To be more convincing, let's look at the following graph:
 
 ![HealthMax_profitMatrix](./img/HealthMax_profitMatrix.png)
+
+The chart visualizes the price effectiveness and **contribution of each HealthMax shampoo** product to the company's *net revenue* in 2022, by comparing Gross Margin (%) and Net Sales Contribution (%).   
+- The chart clearly highlights **Starbust Ultra Soft 100ml** as the flagship product with the best combination of a high **Gross Margin** of 71% and the largest **net sales contribution** of 18%. This indicates that the product is very effectively priced and a key revenue driver,
+
+- Other products such as **Shinez Repair 100ml** also showed a high sales contribution of 19%, but with a slightly lower gross margin of 67%, 
+
+- While **Starbust Strong Hair 100ml** is in the lower quadrant with lower gross margin and sales contribution, indicating an opportunity to review pricing or promotion strategies to increase profitability or sales volume.
+
+> Based on purchase patterns, it appears that consumers favor 100ml shampoo products over other sizes. This indicates that consumers like compact shampoo products (small, compact, and space-saving size). 
+ 
+---
+
+**NEW PRODUCT OPPORTUNITIES**   
+
 
 
