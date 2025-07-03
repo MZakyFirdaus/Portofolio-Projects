@@ -13,7 +13,7 @@ This analysis will include identifying opportunities for net revenue optimizatio
 ## Key Findings:
 1. **What has happened over the past few years?**: A review of historical sales data to understand unit sales volume and overall sales performance trends for HealthMax products over time.   
 2. **Effectiveness of Pricing and Promotion Strategy**: An analysis to determine if the existing pricing and promotion strategies are effective in maximizing net revenue for HealthMax products. 
-3. **Identifikasi Product Baru HealthMax**: Insights derived from market analysis and consumer trends to identify potential opportunities for new product development or expansion within the HealthMax product line.
+3. **HealthMax New Product Identification**: Insights derived from market analysis and consumer trends to identify potential opportunities for new product development or expansion within the HealthMax product line.
 
 
 ## Data
@@ -36,7 +36,7 @@ The columns are structured as follows:
 - ***Units MAT***: Total units sold over the last 12 months (Moving Annual Total).
 - ***Values MAT***: Total revenue generated over the last 12 months (Moving Annual Total).
 
-## Metodologi Analisis
+## Methodology of Analysis
 The methodology for this project was descriptive, agnostic, and predictive analysis. The selection of these methods was designed for a comprehensive overview of understanding HealthMax's current sales conditions, evaluating performance, and predicting future trends.
 
 ### Tools and Technology
@@ -97,10 +97,36 @@ The chart visualizes the price effectiveness and **contribution of each HealthMa
 - While **Starbust Strong Hair 100ml** is in the lower quadrant with lower gross margin and sales contribution, indicating an opportunity to review pricing or promotion strategies to increase profitability or sales volume.
 
 > Based on purchase patterns, it appears that consumers favor 100ml shampoo products over other sizes. This indicates that consumers like compact shampoo products (small, compact, and space-saving size). 
- 
----
 
-**NEW PRODUCT OPPORTUNITIES**   
+**EFFECTIVENESS OF PROMOTION**   
+During 2022, HealthMax conducted 3 promotions for Shinez products, in April, August, and November. To have an overall idea of how it affected sales see the graph below.
+
+![Shinez_sales](./img/Shinez_sales.png
+)
 
 
+Based on the “HealthMax's Shinez Sales In 2022” chart, it is clear that sales of Shinez products show significant volatility throughout the year, with notable peaks. Sharp increases in sales in April, August, and November coincided with different promotional periods (Buy 2 Get 1 Free, Buy 2 Get 20% Off, and 2nd at 50% Off respectively), indicating consumers' positive response to the incentives. Although Shinez is said to have performed slightly worse than other HealthMax products, these promotions managed to drive a spike in sales above the monthly average. This suggests that promotions are an effective tool to boost the sales volume of Shinez, although further analysis is required to evaluate the net profitability of each promotion type.
 
+*But which promotion is more effective?* 
+The following table details the promotions applied to Shinez products.
+
+![promotion_table](./img/promotion_table.png)
+
+> There are 3 promotions applied in each month, to see the effectiveness of which promotion is the best can be seen in ROI (Return Of Investments). The “buy 2, get 20% off” promotion turned out to be more effective so this promotion might be applied by the marketing team for the next promotion.
+
+--- 
+
+### NEW PRODUCT OPPORTUNITIES
+The HealthMax Product Team decided to release a new product. The first thing they did was market research. Using Excel's *PivotTables*, this was easy to do.
+
+![UnitSoldsGrowth for each Category](./img/product_growth.png)
+
+Based on the data, shampoo products in the **Organic** category experienced the highest unit sales growth compared to other products. In 2022, the unit sales of organic shampoo products increased by 22.86% from the previous year.
+
+Therefore, the product team decided to launch a new product for the *Organic* category. This will add the HealthMax product category, which previously only had *Anti-dandruff* and *Volumizing* product categories.
+
+Currently, there are two products that are planned to be added, namely: **HerbEssentials** and **HerbaShine**. To determine which one will generate the highest profit, calculations were made to calculate the estimated gross margin (%). The product with the highest estimated gross margin is the product that will be launched.
+
+![newProduct_calc](./img/newProduct_calc.png)
+
+Based on the calculation, the product to be launched is **HerbaShine** because this product is estimated to generate a gross margin of 67%.
