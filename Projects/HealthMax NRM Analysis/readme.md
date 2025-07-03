@@ -1,14 +1,13 @@
 # Net Revenue Management Analysis
 
-**HealthMax** is a Fast-Moving Consumer Goods (FMCG) company engaged in the personal care industry, one of its products is shampoo. Known for its commitment to quality and innovation, HealthMax continuously strives to strengthen its position in the competitive market by deeply understanding market dynamics and consumer behavior. The company is active in various marketing and promotional initiatives to ensure its products reach a wide target market.
-
----
 
 ## Project Background  
-
-**HealthMax** is a *Fast-Moving Consumer Goods (FMCG)* company and one of its best products is Shampoo. As a data analyst, this project was initiated to conduct an in-depth analysis of net revenue management (NRM).   
+**HealthMax** is a Fast-Moving Consumer Goods (FMCG) company engaged in the personal care industry, one of its products is shampoo. Known for its commitment to quality and innovation, HealthMax continuously strives to strengthen its position in the competitive market by deeply understanding market dynamics and consumer behavior. The company is active in various marketing and promotional initiatives to ensure its products reach a wide target market.
 
 This analysis will include identifying opportunities for net revenue optimization, evaluating the effectiveness of product pricing, and assessing the effectiveness of existing promotions. The results of this analysis are expected to provide strategic insights for HealthMax to make more informed decisions in terms of pricing, promotion allocation, and overall sales strategy, in order to maximize profitability and market share. 
+
+## Executive Summary 
+This project conducts an in-depth Net Revenue Management (NRM) analysis for HealthMax's shampoo products to identify optimization opportunities and enhance profitability. Our findings reveal HealthMax's consistent market dominance, alongside a critical insight: while sales value has grown, unit sales volume has declined since 2020. This analysis further identifies optimal pricing strategies for key products and highlights the clear effectiveness of specific promotional mechanics (e.g., "Buy 2, Get 20% Off") through strong ROI. Moving forward, we recommend leveraging high-margin, high-contribution products, refining promotional investments based on profitability, and capitalizing on the identified growth potential within the organic product category to secure HealthMax's continued market leadership and profitability.
 
 ## Key Findings:
 1. **What has happened over the past few years?**: A review of historical sales data to understand unit sales volume and overall sales performance trends for HealthMax products over time.   
@@ -130,3 +129,18 @@ Currently, there are two products that are planned to be added, namely: **HerbEs
 ![newProduct_calc](./img/newProduct_calc.png)
 
 Based on the calculation, the product to be launched is **HerbaShine** because this product is estimated to generate a gross margin of 67%.
+
+## Recommendation
+
+Based on an in-depth analysis of HealthMax's sales data, market share, product profitability and promotional effectiveness, the data analysis team has identified several key areas for Net Revenue Management (NRM) optimization. The following recommendations aim to maximize profitability and strengthen HealthMax's market position by leveraging product strengths, optimizing promotional investments, and exploring new growth opportunities identified in the market.
+
+### 1. Prioritize Promotion Mechanisms with Proven Positive ROI (Focus on “Buy 2, Get 20% Off”)
+The promotion analysis for Shinez products explicitly showed that the “Buy 2, Get 20% Off” mechanism in August 2022 generated the highest positive ROI of 11.84%. In contrast, the “Buy 2, Get 1 Free” promotion showed a negative ROI (-2.45%), indicating financial ineffectiveness. Optimizing the promotional budget allocation to strategies that prove to be profitable will directly increase net revenue.
+
+### 2. Product Portfolio Optimization by Encouraging High Contribution and High Margin Products
+The HealthMax Profit Matrix identified Starbust Ultra Soft 100ml as the flagship product with a Gross Margin of 71% and the highest net sales contribution of 18%. Such products are the key drivers of profitability and should be maximized. On the other hand, products with lower margins and contribution (e.g. Starbust Strong Hair 100ml) need to be evaluated. Focusing on superior performing products will optimize overall net revenue. 
+
+### 3. Capitalize on Organic Category Growth with HerbaShine Launch and Further Exploration
+Data shows that the Organic category has the highest unit sales growth of 22.86% in 2022, indicating strong market demand in this segment. The decision to launch HerbaShine with an estimated gross margin of 67% is the right move to capitalize on profitability in a growing category.
+
+Accelerate the launch process of HerbaShine. In addition, HealthMax should continue to monitor organic market trends and explore the potential of expanding to other organic product lines, or even adapting existing products (e.g. Shinez or Starbust) to organic variants, to further capture this growing market share and diversify revenue sources. 
